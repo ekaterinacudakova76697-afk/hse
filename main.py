@@ -1,4 +1,19 @@
 print("Hello, Boris Igorevich")
-a = int(input())
-b = int(input())
-print(a+b)
+a = float(input())
+b = float(input())
+op = input()
+
+if op == '+':
+    res = a + b
+elif op == '-':
+    res = a-b 
+elif op == '*':
+    res = a * b
+elif op == '/':
+    if b != 0:
+        res = a / b
+    else: 
+        print("Деление на 0")
+else:
+    print("Ошибка ввода")
+print("Answer:", res)
