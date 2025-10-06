@@ -2,7 +2,7 @@ print("Hello, Boris Igorevich")
 a = float(input())
 b = float(input())
 op = input()
-res = ''
+
 if op == '+':
     res = a + b
 elif op == '-':
